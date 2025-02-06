@@ -26,36 +26,6 @@ const Hero = () => {
         document.body.removeChild(link);
     };
 
-    // useEffect(() => {
-    //     const handleTyping = () => {
-    //         if (!isDeleting && charIndex < words[wordIndex].length) {
-    //             // Typing mode
-    //             setText((prev) => prev + words[wordIndex][charIndex]);
-    //             setCharIndex((prev) => prev + 1);
-    //         } else if (isDeleting && charIndex > 0) {
-    //             // Deleting mode
-    //             setText((prev) => prev.slice(0, -1));
-    //             setCharIndex((prev) => prev - 1);
-    //         } else {
-    //             // When the word is fully typed or deleted, switch to next step
-    //             if (!isDeleting && charIndex === words[wordIndex].length) {
-    //                 setIsDeleting(true);
-    //                 setTimeout(() => setIsDeleting(false), pauseDuration);
-    //             } else if (isDeleting && charIndex === 0) {
-    //                 setWordIndex((prev) => (prev + 1) % words.length);
-    //                 setTimeout(() => setIsDeleting(false), pauseDuration);
-    //             }
-    //         }
-    //     };
-
-    //     const typingTimeout = setTimeout(
-    //         handleTyping,
-    //         isDeleting ? deletingSpeed : typingSpeed
-    //     );
-    //     return () => clearTimeout(typingTimeout);
-    // }, [charIndex, isDeleting, wordIndex]);
-
-
     useEffect(() => {
         const handleTyping = () => {
             if (!isDeleting && charIndex < words[wordIndex].length) {
@@ -85,7 +55,7 @@ const Hero = () => {
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-900/80 to-beige dark:to-gray-900 z-0"></div>
 
             {/* Left Side - Text & Buttons */}
-            <div className="md:w-1/2 space-y-6 z-10 relative ml-20">
+            <div className="md:w-1/2 space-y-6 z-10 relative flex flex-col items-center justify-center md:items-start md:justify-start mt-6 md:mt-0 md:ml-20">
                 <motion.div
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -126,7 +96,7 @@ const Hero = () => {
                 <img
                     src={profileImage}
                     alt="Nabeel Ahmad"
-                    className="w-20 h-20 md:w-80 md:h-80 md:w-96 md:h-96 object-cover rounded-full border-4 border-blue-500 shadow-lg"
+                    className="w-36 h-36 md:w-96 md:h-96 object-cover rounded-full border-4 border-blue-500 shadow-lg"
                 />
             </motion.div>
 

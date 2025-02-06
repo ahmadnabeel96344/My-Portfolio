@@ -41,7 +41,7 @@ const Experience = () => {
                 {experience.map((job, index) => (
                     <motion.div
                         key={index}
-                        className="p-6 bg-gray-800 rounded-lg shadow-lg text-left"
+                        className="p-6 bg-gray-800 rounded-lg shadow-lg text-left mx-4 md:mx-0"
                         whileHover={{ scale: 1.02 }}
                     >
                         <h3 className="text-xl font-semibold">{job.role}</h3>
