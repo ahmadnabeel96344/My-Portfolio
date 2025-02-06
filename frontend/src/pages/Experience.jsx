@@ -13,17 +13,17 @@ const experience = [
     },
     {
         role: "Freelance Developer @ ProcureFlow",
-        duration: "Nov 2023 - Mar 2024",
+        duration: "July 2022 - September 2022",
         description: "Revamped procurement workflows by streamlining PR/QR creation processes and integrating graphical dashboard overviews. Implemented RBAC for secure authorization and data integrity, while enhancing user experience with automated email alerts and downloadable quotations. Developed a robust backend with Node.js and Express.js, and utilized MongoDB for efficient data management.",
     },
     {
         role: "Freelance Developer @ Xipertech",
-        duration: "May 2023 - Sept 2023",
+        duration: "March 2022 - June 2022",
         description: "Founded an innovative IT service start-up delivering cutting-edge solutions to diverse clients. Designed and implemented responsive frontends using React.js and Tailwind CSS, and built scalable backend services with Node.js and Express.js, leveraging MongoDB for dynamic data handling.",
     },
     {
         role: "Freelance Developer @ BGDFH",
-        duration: "Nov 2022 - Mar 2023",
+        duration: "January 2022 - February 2022",
         description: "Developed a secure, scalable website for facilitating property transactions in the Delhi/NCR region. Created an intuitive user interface with React.js and Tailwind CSS, and engineered a robust backend with Node.js and Express.js, integrating MongoDB for seamless data management.",
     }
 ];
