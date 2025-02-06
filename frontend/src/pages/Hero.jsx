@@ -79,7 +79,7 @@ const Hero = () => {
                 >
                     <button
                         onClick={downloadResume}
-                        className="px-6 py-3 border border-blue-500 text-blue-500 font-semibold rounded-lg"
+                        className="px-6 py-3 border border-blue-500 text-blue-500 font-semibold rounded-lg hover:bg-blue-500 hover:text-white active:scale-95 active:bg-blue-600 active:text-white transition duration-300"
                     >
                         Download Resume
                     </button>
@@ -102,7 +102,7 @@ const Hero = () => {
 
             {/* Floating Scroll Indicator */}
             <motion.div
-                className="absolute bottom-10 text-gray-400 z-10"
+                className="absolute bottom-3 text-gray-400 z-10"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
             >
