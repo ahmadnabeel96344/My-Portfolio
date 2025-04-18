@@ -7,7 +7,7 @@ const experience = [
         description: "Applications Development, Applications Deployment on the organization’s server using IIS Manager, ensuring seamless deployment and optimal performance. Maintain and support large-scale packaging applications to ensure functionality and performance. Collaborate with cross-functional teams to integrate various systems, ensuring seamless operation and cohesive functionality of all developed and maintained applications.",
     },
     {
-        role: "Junior Developer @ R1 RCM",
+        role: "MERN Developer @ R1 RCM",
         duration: "Oct 2022 - March 2024",
         description: "Developed and implemented responsive user interfaces using React.js, enhancing user experience. Built and deployed scalable RESTful APIs with Node.js and Express.js for backend operations. Created reusable code components to improve scalability. Provided ongoing support for deployed applications, including troubleshooting and implementing client feedback. Collaborated with clients and stakeholders to gather requirements, implement feature updates, and resolve issues promptly.",
     },
